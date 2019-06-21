@@ -36,7 +36,7 @@ def tik():
 
 babale = 0
 threads = []
-cie jadi  = []
+Berhasil  = []
 cekpoint = []
 soe nn cs  = []
 idteman = []
