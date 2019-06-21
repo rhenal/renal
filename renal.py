@@ -1,4 +1,4 @@
-#Decompiled by MR.K7C8NG
+#Decompiled by Renaldy Rotty
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -29,16 +29,16 @@ def tik():
     titik = [
      '.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mSedang Masuk COK \x1b[1;97m' + o,
+        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mTunggu Eh Bangsat \x1b[1;97m' + o,
         sys.stdout.flush()
         time.sleep(1)
 
 
-back = 0
+babale = 0
 threads = []
-berhasil = []
+cie jadi  = []
 cekpoint = []
-gagal = []
+soe nn cs  = []
 idteman = []
 idfromteman = []
 idmem = []
@@ -148,11 +148,11 @@ def menu():
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
     print '\x1b[1;37;40m1. Informasi Pengguna'
-    print '\x1b[1;37;40m2. Hack Akun Facebook'
+    print '\x1b[1;37;40m2. For Ba Hack Fb    '
     print '\x1b[1;37;40m3. Bot               '
     print '\x1b[1;37;40m4. Lainnya....       '
     print '\x1b[1;37;40m5. LogOut            '
-    print '\x1b[1;31;40m0. Keluar            '
+    print '\x1b[1;31;40m0. Kaluar            '
     print
     pilih()
 
@@ -183,7 +183,7 @@ def pilih():
                             if zedd == '0':
                                 keluar()
                             else:
-                                print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + zedd + ' \x1b[1;91mTidak ada'
+                                print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + zedd + ' \x1b[1;91mNda Ada'
                                 pilih()
 
 
@@ -277,7 +277,7 @@ def menu_hack():
     print '\x1b[1;37;40m4. BruteForce(\x1b[1;92mTarget\x1b[1;97m)'
     print '\x1b[1;37;40m5. Yahoo Checker'
     print '\x1b[1;37;40m6. Ambil id/email/hp'
-    print '\x1b[1;31;40m0. Kembali'
+    print '\x1b[1;31;40m0. Babale'
     print
     hack_pilih()
 
